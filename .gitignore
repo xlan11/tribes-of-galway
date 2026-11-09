@@ -1,3 +1,5 @@
 .taste-skill/
 node_modules/
 .DS_Store
+site/.taste-skill/*
+!site/.taste-skill/waivers.json
