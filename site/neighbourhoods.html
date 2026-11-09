@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Neighbourhoods: Tribes of Galway</title>
-<meta name="description" content="Walk the parts of Galway where the tribes lived and traded, from the Latin Quarter to the Claddagh.">
+<meta name="description" content="Walk the parts of Galway where the tribes lived and traded, from the Latin Quarter to Woodquay.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Neighbourhoods: Tribes of Galway">
-<meta property="og:description" content="Walk the parts of Galway where the tribes lived and traded, from the Latin Quarter to the Claddagh.">
+<meta property="og:description" content="Walk the parts of Galway where the tribes lived and traded, from the Latin Quarter to Woodquay.">
+<meta property="og:image" content="assets/img/hero.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<meta name="theme-color" content="#f4f1ea">
+<meta name="theme-color" content="#14181b">
 <!-- <link rel="canonical" href="https://www.tribesofgalway.com/"> once the domain is live -->
 <meta name="site-kind" content="other">
 <meta name="page-type" content="place">
 <meta name="page-kind" content="place">
-<script>try{var t=localStorage.getItem('tg-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Besley:wght@400..600&family=Albert+Sans:wght@400..600&display=swap" rel="stylesheet">
@@ -27,10 +27,10 @@
 <link rel="stylesheet" href="assets/icons/icon.css">
 <style>
 :root {
-  --p-bg: #f4f1ea; --p-surface: #ebe6db; --p-ink: #1e2328; --p-muted: #5b6168;
-  --p-accent: #1f5c6b; --p-accent-ink: #f4f1ea; --p-action: #1f5c6b; --p-action-ink: #f4f1ea;
-  --p-inv-bg: #1e2328; --p-inv-surface: #2a2f34; --p-inv-ink: #f4f1ea; --p-inv-muted: #9b9c9a;
-  --p-inv-accent: #f4f1ea; --p-inv-accent-ink: #1e2328; --p-inv-action: #f4f1ea; --p-inv-action-ink: #1e2328;
+  --p-bg: #14181b; --p-surface: #1d2226; --p-ink: #ece7dd; --p-muted: #a4a9ae;
+  --p-accent: #6fb3c2; --p-accent-ink: #14181b; --p-action: #6fb3c2; --p-action-ink: #14181b;
+  --p-inv-bg: #ece7dd; --p-inv-surface: #e2dcd0; --p-inv-ink: #14181b; --p-inv-muted: #4c5257;
+  --p-inv-accent: #14181b; --p-inv-accent-ink: #ece7dd; --p-inv-action: #14181b; --p-inv-action-ink: #ece7dd;
   --font-display: "Besley", Georgia, serif;
   --font-text: "Albert Sans", system-ui, sans-serif;
   --display-weight: 400;
@@ -44,9 +44,8 @@
 
 </head>
 <body>
-<!-- type: place (a heritage site about the city: photographs, type and flat colour; no effects)
-     deal: hero place, nav split, close word, footer columns (no opening hours to show), rhythm colour-band,
-     buttons arrow, mark stack; palette: Alan's limestone, slate and Galway Bay blue (start.mjs brand), type besley
+<!-- type: place (a heritage site about the city: photographs, type and flat colour; no effects). Dark only, at Alan's request.
+     deal: hero place, nav split, close word, footer columns, buttons arrow, mark stack; type besley
      moments: word-highlight (home, the statement section) -->
 <header class="nav nav--split">
   <div class="wrap nav__bar">
@@ -54,15 +53,11 @@
     <a class="nav__logo" href="index.html"><span class="mark" data-mark="stack" aria-hidden="true"></span>Tribes of Galway</a>
     <nav class="nav__links" aria-label="Main">
       <div class="nav__item"><a class="nav__link" href="tribes/index.html">Tribes</a></div>
-      <div class="nav__item"><a class="nav__link" href="stories/index.html">Stories</a></div>
+      <div class="nav__item"><a class="nav__link" href="places/index.html">Sites</a></div>
       <div class="nav__item"><a class="nav__link" href="neighbourhoods.html" aria-current="page">Neighbourhoods</a></div>
       <div class="nav__item"><a class="nav__link" href="about.html">About</a></div>
     </nav>
     <div class="nav__actions">
-      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode">
-        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
-        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-      </button>
       <a class="btn btn--primary" href="map.html">Explore the map</a>
     </div>
     <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu">
@@ -75,39 +70,39 @@
 
   <section class="page-head"><div class="wrap">
     <h1>Walk the old town</h1>
-    <p>Four parts of the city where the tribes lived, traded and prayed, and what to find in each.</p>
+    <p>Four parts of the city where the tribes lived, traded and prayed, and the sites to find in each.</p>
   </div></section>
-  <section class="section" id="latin-quarter"><div class="wrap grid grid--top">
+  <section class="section section--tight" id="latin-quarter"><div class="wrap grid grid--top">
     <div class="span-6">
       <h2>The Latin Quarter</h2>
-      <p style="margin-bottom: var(--s-5)">Shop Street, Quay Street and the lanes between: the heart of the walled town.</p>
-      <ul class="place-list"><li><a href="tribes/lynch.html">Lynch’s Castle</a><span class="t-small">The Lynch town house at Shop Street and Abbeygate Street, carved with the family arms.</span></li><li><a href="stories/lynch-window.html">Lynch Memorial Window</a><span class="t-small">The window behind St Nicholas’ where the Lynch hanging is said to have happened.</span></li><li><a href="stories/columbus.html">St Nicholas’ Collegiate Church</a><span class="t-small">The parish church of the tribes, founded in 1320, with their tombs and arms inside.</span></li><li><a href="tribes/kirwan.html">Kirwan’s Lane</a><span class="t-small">A medieval lane named for the Kirwan family, between Quay Street and Cross Street.</span></li></ul>
+      <p style="margin-bottom: var(--s-5)">Shop Street, High Street, Market Street and the lanes between: the heart of the walled town.</p>
+      <ul class="place-list place-list--cols"><li><a href="places/st-nicholas.html">Saint Nicholas’s Collegiate Church</a><span class="t-small">Lombard Street</span></li><li><a href="places/st-nicholas-college.html">Saint Nicholas’s College</a><span class="t-small">Church Lane, by the Saturday Market</span></li><li><a href="places/athy-market-street.html">The Athy house</a><span class="t-small">Market Street car park</span></li><li><a href="places/blake-mansion.html">Sir Richard Blake’s mansion</a><span class="t-small">Bridge Street</span></li><li><a href="places/blake-augustine.html">Saint Augustine’s Church</a><span class="t-small">Middle Street</span></li><li><a href="places/bodkin-st-nicholas.html">The Bodkins at Saint Nicholas’s</a><span class="t-small">Lombard Street</span></li><li><a href="places/darcy-abbeygate.html">Lower Abbeygate Street</a><span class="t-small">Abbeygate Street Lower</span></li><li><a href="places/deane-high-street.html">The Deanes of High Street</a><span class="t-small">High Street</span></li><li><a href="places/deane-middle-street.html">The Deanes of Middle Street</a><span class="t-small">Middle Street</span></li><li><a href="places/font-abbeygate.html">The Fonts of Abbeygate Street</a><span class="t-small">Abbeygate Street</span></li><li><a href="places/french-mansion.html">Sir Peter French’s mansion</a><span class="t-small">Market Street</span></li><li><a href="places/joyce-pictorial-map.html">The Pictorial Map</a><span class="t-small">Lynch’s Castle, Shop Street</span></li><li><a href="places/joyce-house.html">Joyce House</a><span class="t-small">Saint Augustine Street</span></li><li><a href="places/kirwan-shop-street.html">The Kirwans of Shop Street</a><span class="t-small">Shop Street</span></li><li><a href="places/kirwans-lane.html">Kirwan’s Lane</a><span class="t-small">Cross Street and Kirwan’s Lane</span></li><li><a href="places/kirwan-high-street.html">The Kirwans of High Street</a><span class="t-small">High Street</span></li><li><a href="places/crann-mor-1.html">Crann Mór mansion, part one</a><span class="t-small">Bridge Street</span></li><li><a href="places/crann-mor-2.html">Crann Mór mansion, part two</a><span class="t-small">Bridge Street</span></li><li><a href="places/lynchs-castle.html">Lynch’s Castle</a><span class="t-small">The Four Corners, Shop Street</span></li><li><a href="places/lynch-window.html">The Lynch Window</a><span class="t-small">Market Street</span></li><li><a href="places/kings-head.html">The King’s Head</a><span class="t-small">High Street</span></li><li><a href="places/lynch-penrise.html">The Lynch-Penrise house</a><span class="t-small">High Street</span></li><li><a href="places/lynch-abbeygate.html">The Lynches of Abbeygate Street</a><span class="t-small">Abbeygate Street</span></li><li><a href="places/martins-mill-lane.html">Martin’s Mill Lane</a><span class="t-small">Martin’s Mill Lane</span></li><li><a href="places/martin-west-bridge.html">The West Bridge and the mills</a><span class="t-small">Shop Street and the West Bridge</span></li><li><a href="places/tigh-neachtain.html">Tigh Neachtáin</a><span class="t-small">Cross Street and Quay Street</span></li><li><a href="places/skerrett-brewhouse.html">The Skerrett brewhouse</a><span class="t-small">Church Lane</span></li><li><a href="places/fallon-high-street.html">The Fallons of High Street</a><span class="t-small">High Street</span></li><li><a href="places/nolan-high-street.html">The Nolans of High Street</a><span class="t-small">High Street</span></li></ul>
     </div>
-    <div class="span-6 start-7"><img class="ph-img ph--43 " src="data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 900' width='1200' height='900'><rect width='100%' height='100%' fill='%23e4ded2'/><path transform='translate(567 351) scale(2.75)' d='M4 8h3l2-3h6l2 3h3v11H4z M12 9.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 1 0 0-7' fill='none' stroke='%235b6168' stroke-width='1.3'/><text x='600' y='482.8' text-anchor='middle' font-family='Arial, sans-serif' font-size='41' fill='%235b6168'>Photograph to come: The Latin</text><text x='600' y='540.2' text-anchor='middle' font-family='Arial, sans-serif' font-size='41' fill='%235b6168'>Quarter</text></svg>" width="1200" height="900" alt="The Latin Quarter" loading="lazy" data-source="stand-in" data-subject="The Latin Quarter"></div>
+    <div class="span-6"><img class="photo " src="assets/img/shop-street.jpg" width="1280" height="960" alt="The Latin Quarter" loading="lazy" data-source="stand-in" data-subject="Shop Street"></div>
   </div></section>
-  <section class="section" id="eyre-square"><div class="wrap grid grid--top">
+  <section class="section section--tight" id="eyre-square"><div class="wrap grid grid--top">
     <div class="span-6">
-      <h2>Eyre Square</h2>
-      <p style="margin-bottom: var(--s-5)">The green outside the old walls, with the Browne Doorway and the tribal flags.</p>
-      <ul class="place-list"><li><a href="stories/browne-doorway.html">Browne Doorway</a><span class="t-small">The doorway of the Browne house of 1627, rebuilt here in 1905.</span></li><li><a href="stories/tribes-name.html">Eyre Square</a><span class="t-small">The old green outside the walls, where the fourteen tribal flags fly today.</span></li></ul>
+      <h2>Eyre Square and Williamsgate</h2>
+      <p style="margin-bottom: var(--s-5)">The green outside the old walls, the Great Gate, and the Browne Doorway.</p>
+      <ul class="place-list place-list--cols"><li><a href="places/bodkins-lane.html">Bodkin’s Lane</a><span class="t-small">Bodkin’s Lane, off Abbeygate Street</span></li><li><a href="places/bodkin-prospect-hill.html">Prospect Hill and Eyre Square</a><span class="t-small">Prospect Hill</span></li><li><a href="places/browne-doorway.html">The Browne Doorway</a><span class="t-small">Eyre Square</span></li><li><a href="places/browne-abbeygate.html">Upper Abbeygate Street and Bodkin’s Lane</a><span class="t-small">Abbeygate Street Upper</span></li><li><a href="places/darcy-eyre-square.html">Number 3 Eyre Square</a><span class="t-small">Eyre Square</span></li><li><a href="places/great-gate.html">The Great Gate</a><span class="t-small">Williamsgate Street</span></li><li><a href="places/martin-castle.html">The Martin castle</a><span class="t-small">Williamsgate Street</span></li></ul>
     </div>
-    <div class="span-6 start-7"><img class="ph-img ph--43 " src="data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 900' width='1200' height='900'><rect width='100%' height='100%' fill='%23e4ded2'/><path transform='translate(567 351) scale(2.75)' d='M4 8h3l2-3h6l2 3h3v11H4z M12 9.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 1 0 0-7' fill='none' stroke='%235b6168' stroke-width='1.3'/><text x='600' y='482.8' text-anchor='middle' font-family='Arial, sans-serif' font-size='41' fill='%235b6168'>Photograph to come: Eyre Square</text></svg>" width="1200" height="900" alt="Eyre Square" loading="lazy" data-source="stand-in" data-subject="Eyre Square"></div>
+    <div class="span-6"><img class="photo " src="assets/img/eyre-square.jpg" width="1280" height="960" alt="Eyre Square and Williamsgate" loading="lazy" data-source="stand-in" data-subject="Eyre Square"></div>
   </div></section>
-  <section class="section" id="spanish-arch"><div class="wrap grid grid--top">
+  <section class="section section--tight" id="spanish-arch"><div class="wrap grid grid--top">
     <div class="span-6">
       <h2>Spanish Arch and the quays</h2>
-      <p style="margin-bottom: var(--s-5)">Where the wine ships came in, and the town wall met the river.</p>
-      <ul class="place-list"><li><a href="tribes/blake.html">Blake’s Castle</a><span class="t-small">A tower house of the Blake family at the foot of Quay Street.</span></li><li><a href="families.html">Hall of the Red Earl</a><span class="t-small">The de Burgo hall where the town paid its taxes, before the tribes held power.</span></li><li><a href="stories/oflaherty-gate.html">Spanish Arch</a><span class="t-small">Part of the city wall of 1584, where ships from France and Spain unloaded wine.</span></li></ul>
+      <p style="margin-bottom: var(--s-5)">Where the wine ships came in and the town wall met the river.</p>
+      <ul class="place-list place-list--cols"><li><a href="places/spanish-arch.html">Ceann an Bhalla, the Spanish Arch</a><span class="t-small">Spanish Parade</span></li><li><a href="places/athy-flood-street.html">Flood Street and Quay Lane</a><span class="t-small">Flood Street</span></li><li><a href="places/blakes-castle.html">Blake’s Castle</a><span class="t-small">Quay Street</span></li><li><a href="places/martins-tower.html">Martin’s Tower and the Spanish Arch</a><span class="t-small">Spanish Parade</span></li><li><a href="places/red-earl.html">Hall of the Red Earl</a><span class="t-small">Druid Lane</span></li><li><a href="places/ohallmhurain-quay-lane.html">Ó hAllmhuráin of Quay Lane</a><span class="t-small">Quay Lane</span></li><li><a href="places/oconchobhair-oflaithbertaigh.html">Ó Conchobhair and Ó Flaithbertaigh</a><span class="t-small">Quay Street and Quay Lane</span></li></ul>
     </div>
-    <div class="span-6 start-7"><img class="ph-img ph--43 " src="data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 900' width='1200' height='900'><rect width='100%' height='100%' fill='%23e4ded2'/><path transform='translate(567 351) scale(2.75)' d='M4 8h3l2-3h6l2 3h3v11H4z M12 9.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 1 0 0-7' fill='none' stroke='%235b6168' stroke-width='1.3'/><text x='600' y='482.8' text-anchor='middle' font-family='Arial, sans-serif' font-size='41' fill='%235b6168'>Photograph to come: Spanish Arch</text><text x='600' y='540.2' text-anchor='middle' font-family='Arial, sans-serif' font-size='41' fill='%235b6168'>and the quays</text></svg>" width="1200" height="900" alt="Spanish Arch and the quays" loading="lazy" data-source="stand-in" data-subject="Spanish Arch and the quays"></div>
+    <div class="span-6"><img class="photo " src="assets/img/long-walk.jpg" width="1280" height="720" alt="Spanish Arch and the quays" loading="lazy" data-source="stand-in" data-subject="The Long Walk on the Corrib"></div>
   </div></section>
-  <section class="section" id="claddagh"><div class="wrap grid grid--top">
+  <section class="section section--tight" id="woodquay"><div class="wrap grid grid--top">
     <div class="span-6">
-      <h2>The Claddagh</h2>
-      <p style="margin-bottom: var(--s-5)">The fishing village across the Corrib, with its own king and its own ring.</p>
-      <ul class="place-list"><li><a href="stories/claddagh-ring.html">The Claddagh</a><span class="t-small">The fishing village across the river, home of the ring Richard Joyce is said to have made.</span></li></ul>
+      <h2>Woodquay and the Abbey</h2>
+      <p style="margin-bottom: var(--s-5)">The river quay upstream, the Franciscan Abbey and its graveyard.</p>
+      <ul class="place-list place-list--cols"><li><a href="places/franciscan-abbey.html">Franciscan Abbey and graveyard</a><span class="t-small">Saint Francis Street</span></li><li><a href="places/blake-woodquay.html">The Blakes at Woodquay</a><span class="t-small">Woodquay</span></li><li><a href="places/darcy-woodquay.html">The D’Arcys at Woodquay</a><span class="t-small">Woodquay</span></li><li><a href="places/lynch-woodquay.html">The Lynches at Woodquay</a><span class="t-small">Woodquay</span></li><li><a href="places/morris-abbey.html">The Morrises and the Franciscan Abbey</a><span class="t-small">Newtownsmyth</span></li><li><a href="places/skerrett-bowling-green.html">The Skerretts of Bowling Green</a><span class="t-small">Bowling Green</span></li></ul>
     </div>
-    <div class="span-6 start-7"><img class="ph-img ph--43 " src="data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 900' width='1200' height='900'><rect width='100%' height='100%' fill='%23e4ded2'/><path transform='translate(567 351) scale(2.75)' d='M4 8h3l2-3h6l2 3h3v11H4z M12 9.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 1 0 0-7' fill='none' stroke='%235b6168' stroke-width='1.3'/><text x='600' y='482.8' text-anchor='middle' font-family='Arial, sans-serif' font-size='41' fill='%235b6168'>Photograph to come: The Claddagh</text></svg>" width="1200" height="900" alt="The Claddagh" loading="lazy" data-source="stand-in" data-subject="The Claddagh"></div>
+    <div class="span-6"><img class="photo " src="assets/img/corrib.jpg" width="1280" height="956" alt="Woodquay and the Abbey" loading="lazy" data-source="stand-in" data-subject="The River Corrib at Galway"></div>
   </div></section>
 </main>
 
@@ -115,7 +110,7 @@
   <div class="wrap">
     <div class="closing__cta close--word">
       <div class="section-head--split">
-        <div><h2 id="close-h">Every tribal house on one map</h2><p class="t-lead">Ten places in the old town, with more to add.</p></div>
+        <div><h2 id="close-h">Every tribal site on one map</h2><p class="t-lead">49 houses, churches, gates and lanes in the old town.</p></div>
         <a class="btn btn--primary" href="map.html">Explore the map<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
       </div>
       <p class="close__word" aria-hidden="true">Tribes of Galway</p>
@@ -127,12 +122,12 @@
           <p class="footer__lede">The fourteen families of Galway, their houses and their stories.</p>
         </div>
         <div class="span-2 footer__col"><h3>Tribes</h3><ul><li><a href="tribes/lynch.html">Lynch</a></li><li><a href="tribes/blake.html">Blake</a></li><li><a href="tribes/browne.html">Browne</a></li><li><a href="tribes/index.html">All fourteen</a></li></ul></div>
-        <div class="span-2 footer__col"><h3>Explore</h3><ul><li><a href="map.html">Map</a></li><li><a href="stories/index.html">Stories</a></li><li><a href="neighbourhoods.html">Neighbourhoods</a></li></ul></div>
+        <div class="span-2 footer__col"><h3>Explore</h3><ul><li><a href="map.html">Map</a></li><li><a href="places/index.html">Historic sites</a></li><li><a href="neighbourhoods.html">Neighbourhoods</a></li></ul></div>
         <div class="span-2 footer__col"><h3>More</h3><ul><li><a href="families.html">Other families</a></li><li><a href="about.html">About</a></li></ul></div>
       </div>
       <div class="footer__legal">
-        <span>&copy; 2026 Tribes of Galway &nbsp; <button class="link-btn" type="button" data-theme-toggle-footer>Light or dark mode</button></span>
-        <span>Map data &copy; OpenStreetMap contributors and CARTO</span>
+        <span>&copy; 2026 Tribes of Galway</span>
+        <a class="credits" href="about.html#credits">Photographs via Wikimedia Commons · map &copy; OpenStreetMap, CARTO</a>
       </div>
     </div>
   </div>
@@ -142,7 +137,6 @@
 </nav>
 
 
-<script src="assets/theme.js"></script>
 <script type="module" src="assets/system.js"></script>
 <script type="module" src="assets/motion/motion.js"></script>
 <script type="module" src="assets/layout/layout.js"></script>

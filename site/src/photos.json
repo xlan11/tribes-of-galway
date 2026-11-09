@@ -1,0 +1,172 @@
+{
+ "hero": {
+  "file": "hero.jpg",
+  "w": 1280,
+  "h": 844,
+  "alt": "The Spanish Arch on the River Corrib, Galway",
+  "page": "https://commons.wikimedia.org/wiki/File:Galway_-_Spanish_Arch_-_geograph.org.uk_-_3109561.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Suzanne Mischyshyn",
+  "title": "File:Galway - Spanish Arch - geograph.org.uk - 3109561.jpg"
+ },
+ "lynch-castle": {
+  "file": "lynch-castle.jpg",
+  "w": 1280,
+  "h": 960,
+  "alt": "Lynch’s Castle on Shop Street",
+  "page": "https://commons.wikimedia.org/wiki/File:Lynch%27s_Castle,_Galway.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "William (Bill or Liam) Cassidy",
+  "title": "File:Lynch's Castle, Galway.jpg"
+ },
+ "st-nicholas": {
+  "file": "st-nicholas.jpg",
+  "w": 1280,
+  "h": 851,
+  "alt": "The Collegiate Church of Saint Nicholas",
+  "page": "https://commons.wikimedia.org/wiki/File:Ireland_Galway_Saint_Nicholas_BW_2025-09-10_18-15-26.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Berthold Werner",
+  "title": "File:Ireland Galway Saint Nicholas BW 2025-09-10 18-15-26.jpg"
+ },
+ "browne-doorway": {
+  "file": "browne-doorway.jpg",
+  "w": 1280,
+  "h": 853,
+  "alt": "The Browne Doorway in Eyre Square",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Browne_Doorway,_Eyre_Square,_Galway_-_panoramio_(1).jpg",
+  "license": "CC BY 3.0",
+  "artist": "Bob Linsdell",
+  "title": "File:The Browne Doorway, Eyre Square, Galway - panoramio (1).jpg"
+ },
+ "eyre-square": {
+  "file": "eyre-square.jpg",
+  "w": 1280,
+  "h": 960,
+  "alt": "Eyre Square",
+  "page": "https://commons.wikimedia.org/wiki/File:Eyre_Square,_Galway_-_geograph.org.uk_-_5348528.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Gareth James",
+  "title": "File:Eyre Square, Galway - geograph.org.uk - 5348528.jpg"
+ },
+ "red-earl": {
+  "file": "red-earl.jpg",
+  "w": 1280,
+  "h": 748,
+  "alt": "The excavated Hall of the Red Earl",
+  "page": "https://commons.wikimedia.org/wiki/File:Hall_of_the_Red_Earl.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "A.-K. D.",
+  "title": "File:Hall of the Red Earl.jpg"
+ },
+ "quay-street": {
+  "file": "quay-street.jpg",
+  "w": 1280,
+  "h": 963,
+  "alt": "Quay Street",
+  "page": "https://commons.wikimedia.org/wiki/File:Quay_Street,_Galway_-_geograph.org.uk_-_7583763.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Marathon",
+  "title": "File:Quay Street, Galway - geograph.org.uk - 7583763.jpg"
+ },
+ "shop-street": {
+  "file": "shop-street.jpg",
+  "w": 1280,
+  "h": 960,
+  "alt": "Shop Street",
+  "page": "https://commons.wikimedia.org/wiki/File:Shop_Street,_Galway.jpg",
+  "license": "Public domain",
+  "artist": "Sulmac at English Wikipedia",
+  "title": "File:Shop Street, Galway.jpg"
+ },
+ "shop-street-2": {
+  "file": "shop-street-2.jpg",
+  "w": 1280,
+  "h": 854,
+  "alt": "Musicians on Shop Street",
+  "page": "https://commons.wikimedia.org/wiki/File:Shop_Street,_Galway_2016.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "William Murphy",
+  "title": "File:Shop Street, Galway 2016.jpg"
+ },
+ "high-street": {
+  "file": "high-street.jpg",
+  "w": 1280,
+  "h": 1280,
+  "alt": "High Street",
+  "page": "https://commons.wikimedia.org/wiki/File:High_Street_in_Galway_(2012).jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "JoachimKohler-HB",
+  "title": "File:High Street in Galway (2012).jpg"
+ },
+ "tigh-neachtain": {
+  "file": "tigh-neachtain.jpg",
+  "w": 1280,
+  "h": 930,
+  "alt": "Tigh Neachtáin at Cross Street and Quay Street",
+  "page": "https://commons.wikimedia.org/wiki/File:Tigh_Neacht%C3%A1in_January_2026.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Blaithnaid",
+  "title": "File:Tigh Neachtáin January 2026.jpg"
+ },
+ "bridge": {
+  "file": "bridge.jpg",
+  "w": 1280,
+  "h": 853,
+  "alt": "The William O’Brien Bridge over the Corrib",
+  "page": "https://commons.wikimedia.org/wiki/File:Galway_-_River_Corrib_Walk_-_O%27Brien%27s_Bridge_%5E_Dam_-_geograph.org.uk_-_3029234.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Joseph Mischyshyn",
+  "title": "File:Galway - River Corrib Walk - O'Brien's Bridge ^ Dam - geograph.org.uk - 3029234.jpg"
+ },
+ "market-street": {
+  "file": "market-street.jpg",
+  "w": 1280,
+  "h": 720,
+  "alt": "The Lynch Memorial Window, Market Street",
+  "page": "https://commons.wikimedia.org/wiki/File:Lynch_Memorial_Window,_Market_St,_Galway_(506215)_(25855165164).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Robert Linsdell from St. Andrews, Canada",
+  "title": "File:Lynch Memorial Window, Market St, Galway (506215) (25855165164).jpg"
+ },
+ "long-walk": {
+  "file": "long-walk.jpg",
+  "w": 1280,
+  "h": 720,
+  "alt": "The Long Walk on the Corrib",
+  "page": "https://commons.wikimedia.org/wiki/File:River_Corrib_and_The_Long_Walk,_Galway.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Robert Linsdell",
+  "title": "File:River Corrib and The Long Walk, Galway.jpg"
+ },
+ "corrib": {
+  "file": "corrib.jpg",
+  "w": 1280,
+  "h": 956,
+  "alt": "The River Corrib at Galway",
+  "page": "https://commons.wikimedia.org/wiki/File:Near_the_mouth_of_the_River_Corrib,_Galway_-_geograph.org.uk_-_6574362.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Philip Cornwall",
+  "title": "File:Near the mouth of the River Corrib, Galway - geograph.org.uk - 6574362.jpg"
+ },
+ "claddagh": {
+  "file": "claddagh.jpg",
+  "w": 1280,
+  "h": 854,
+  "alt": "The Claddagh basin and the Long Walk",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Claddagh_Basin_Galway,_with_the_Long_Walk_in_the_background.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Mlhynes",
+  "title": "File:The Claddagh Basin Galway, with the Long Walk in the background.jpg"
+ },
+ "woodquay": {
+  "file": "woodquay.jpg",
+  "w": 1280,
+  "h": 720,
+  "alt": "The Corrib above the old town",
+  "page": "https://commons.wikimedia.org/wiki/File:River_Corrib,_Galway_(506226)_(26468372196).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Robert Linsdell from St. Andrews, Canada",
+  "title": "File:River Corrib, Galway (506226) (26468372196).jpg"
+ }
+}
