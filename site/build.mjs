@@ -172,7 +172,7 @@ out('index.html', page({
     </div></div>
   </section>
 
-  <section class="section" id="houses" aria-labelledby="houses-h">
+  <section class="section tone-2" id="houses" aria-labelledby="houses-h">
     <div class="wrap grid grid--top">
       <div class="span-5">
         <div class="section-head">
@@ -204,14 +204,14 @@ out('index.html', page({
     </div>
   </section>
 
-  <section class="section statement" id="name" data-moment="word-highlight" aria-label="The name">
+  <section class="section statement tone-3" id="name" data-moment="word-highlight" aria-label="The name">
     <div class="wrap">
       <p class="t-label">The name</p>
       <p class="mo-wh__text">In the 1660s the idea of “the Tribes of Galway” took hold: the town’s notable merchant families, set apart by wealth, office and marriage. The name outlived their <strong>power</strong> by three centuries.</p>
     </div>
   </section>
 
-  <section class="section" id="sites" aria-labelledby="sites-h">
+  <section class="section tone-2" id="sites" aria-labelledby="sites-h">
     <div class="wrap">
       <div class="section-head--split">
         <div><h2 id="sites-h">Historic sites to start with</h2><p>Long reads from the research, each tied to a place you can stand in.</p></div>
@@ -261,7 +261,7 @@ for (const t of tribes) {
     </div>
     <div class="span-7"><div class="tg-map tg-map--home" data-map="preview" data-family="${t.slug}" role="region" aria-label="Map of ${esc(t.name)} sites"></div></div>
   </div></section>
-  <section class="section"><div class="wrap">
+  <section class="section tone-2"><div class="wrap">
     <div class="grid story-row cards-wrap">
       ${own.map((x) => placeCard(x, '../')).join('\n      ')}
     </div>
@@ -303,7 +303,7 @@ for (const pl of places) {
     <p class="t-label muted">${pl.families.map((f) => `<a href="../${famHref(f)}">${esc(famBy[f]?.name || f)}</a>`).join(' · ')} · ${esc(pl.street)}</p>
     <h1 style="margin-top: var(--s-4)">${esc(pl.title)}</h1>
   </div></section>
-  <section class="section section--flush"><div class="wrap">${photo(pl.photo, '../', { cls: 'photo--wide', alt: photos[pl.photo]?.alt })}</div></section>
+  <section class="section section--flush tone-2 no-rule"><div class="wrap">${photo(pl.photo, '../', { cls: 'photo--wide', alt: photos[pl.photo]?.alt })}</div></section>
   <section class="section"><div class="wrap longread">
     <article class="longread__body">
       ${pl.paras.map((x) => `<p>${esc(x)}</p>`).join('\n      ')}
@@ -329,7 +329,7 @@ out('map.html', page({
     <h1>Map of the old town</h1>
     <p>Drag and zoom like any map. Choose a family to see only its sites, and tap a pin to read its history.</p>
   </div></section>
-  <section class="section section--flush"><div class="wrap">
+  <section class="section section--flush tone-2 no-rule" style="padding-bottom: var(--s-8) !important"><div class="wrap">
     <div class="map-tools">
       <label for="map-filter">Show sites of
         <select id="map-filter" data-map-filter>

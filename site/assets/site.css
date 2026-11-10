@@ -166,3 +166,13 @@ main > section.section--flush { padding-top: 0 !important; padding-bottom: 0 !im
   .tribe-head { gap: var(--s-4); }
   .tribe-head .crest--lg { width: 64px; height: 75px; }
 }
+
+/* Round 3: tonal section bands and hairline dividers, all within the dark palette */
+:root { --tone-1: #14181b; --tone-2: #1a2024; --tone-3: #13262c; --rule: rgba(236, 231, 221, 0.10); }
+main > section, footer.closing { background: var(--tone-1); }
+main > section + section:not(.no-rule), footer.closing { border-top: 1px solid var(--rule); }
+main > section.tone-2, main.inner > section.page-head { background: var(--tone-2); }
+main > section.tone-3 { background: var(--tone-3); }
+main.inner > section.section--tight:nth-of-type(odd) { background: var(--tone-2); }
+main > section.tone-3 .leaflet-container, main > section.tone-2 .tg-map { border-color: var(--rule); }
+.statement > .wrap::before { content: ""; display: block; width: 48px; height: 2px; background: var(--p-accent); margin: 0 auto var(--s-5) 0; }
