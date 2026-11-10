@@ -114,12 +114,11 @@ ${body}
 
 <footer class="footer closing" id="contact" aria-labelledby="close-h">
   <div class="wrap">
-    <div class="closing__cta close--word">
+    <div class="closing__cta">
       <div class="section-head--split">
         <div><h2 id="close-h">Every tribal site on one map</h2><p class="t-lead">${places.length} houses, churches, gates and lanes in the old town.</p></div>
         <a class="btn btn--primary" href="${p}map.html">${MAIN}${arrow}</a>
       </div>
-      <p class="close__word" aria-hidden="true">Tribes of Galway</p>
     </div>
     <div class="closing__links">
       <div class="grid">
