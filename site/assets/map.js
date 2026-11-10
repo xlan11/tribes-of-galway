@@ -29,7 +29,7 @@
       shown.forEach((p) => {
         const on = p.id === focus;
         const m = L.circleMarker([p.lat, p.lng], { radius: on ? 11 : 8, color: '#14181b', weight: 2, fillColor: on ? '#ece7dd' : colour(p), fillOpacity: 1 });
-        m.bindPopup(`<p class="pop-label">${esc(p.family)} · ${esc(p.street)}</p><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p><a href="${prefix}places/${p.id}.html">Read the history</a>`, { maxWidth: 300 });
+        m.bindPopup(`<p class="pop-label">${esc(p.family)} · ${esc(p.street)}</p><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p><a href="${prefix}places/${p.id}.html">Read the history</a>`, { minWidth: Math.min(280, el.clientWidth - 60), maxWidth: Math.min(320, el.clientWidth - 40) });
         m.bindTooltip(esc(p.title), { direction: 'top', offset: [0, -8] });
         m.addTo(layer);
         markers[p.id] = m;
