@@ -79,7 +79,7 @@ function page({ file, title, desc, body, current = '', home = false, map = false
   --display-tracking: -0.02em;
 }
 </style>
-${map ? `<link rel="stylesheet" href="${p}assets/vendor/leaflet.css">` : ''}
+${map ? `<link rel="stylesheet" href="${p}assets/vendor/maplibre-gl.css">` : ''}
 <link rel="stylesheet" href="${p}assets/site.css">
 <script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
 <script src="${p}assets/backgrounds/backgrounds.js"></script>
@@ -141,7 +141,7 @@ ${body}
   <a class="btn btn--primary" href="${p}map.html">${MAIN}</a>
 </nav>
 ${placeData}
-${map ? `<script src="${p}assets/vendor/leaflet.js"></script>\n<script src="${p}assets/map.js"></script>` : ''}
+${map ? `<script src="${p}assets/vendor/maplibre-gl.js"></script>\n<script src="${p}assets/map.js"></script>` : ''}
 <script type="module" src="${p}assets/system.js"></script>
 <script type="module" src="${p}assets/motion/motion.js"></script>
 <script type="module" src="${p}assets/layout/layout.js"></script>
