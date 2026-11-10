@@ -10,6 +10,8 @@
   const css = getComputedStyle(document.documentElement);
   const colour = (p) => css.getPropertyValue(p.families.includes('all') ? '--tg-gold' : p.families.some((f) => ['burke', 'fallon', 'nolan', 'ohallmhurain', 'oconchobhair', 'oflaithbertaigh'].includes(f)) ? '--tg-blue' : '--tg-red').trim();
   const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+  // CARTO basemap key. It is public by design (it sits in every tile URL); restrict it to the site's domains in the CARTO dashboard.
+  const CARTO_KEY = 'cb1_55xh_1_1ca0794f5cd18c43f0e13ea4';
   const OLD_TOWN = L.latLngBounds([53.2690, -9.0570], [53.2775, -9.0475]);
 
   document.querySelectorAll('[data-map]').forEach((el) => {
@@ -17,7 +19,7 @@
     const family = el.dataset.family || '';
     const focus = el.dataset.focus || '';
     const map = L.map(el, { scrollWheelZoom: full, zoomControl: true, minZoom: 12, maxZoom: 19 });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { attribution, maxZoom: 19, subdomains: 'abcd' }).addTo(map);
+    L.tileLayer(`https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=${CARTO_KEY}`, { attribution, maxNativeZoom: 18, maxZoom: 19 }).addTo(map);
     const layer = L.layerGroup().addTo(map);
     const markers = {};
 
